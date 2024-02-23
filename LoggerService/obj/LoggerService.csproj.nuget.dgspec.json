@@ -1,0 +1,130 @@
+{
+  "format": 1,
+  "restore": {
+    "c:\\Users\\Tekali\\Documents\\Haugesund August 2022\\Bouvet work\\cSharp\\Relocating\\LoggerService\\LoggerService.csproj": {}
+  },
+  "projects": {
+    "c:\\Users\\Tekali\\Documents\\Haugesund August 2022\\Bouvet work\\cSharp\\Relocating\\Interfaces\\Interfaces.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "c:\\Users\\Tekali\\Documents\\Haugesund August 2022\\Bouvet work\\cSharp\\Relocating\\Interfaces\\Interfaces.csproj",
+        "projectName": "Interfaces",
+        "projectPath": "c:\\Users\\Tekali\\Documents\\Haugesund August 2022\\Bouvet work\\cSharp\\Relocating\\Interfaces\\Interfaces.csproj",
+        "packagesPath": "C:\\Users\\Tekali\\.nuget\\packages\\",
+        "outputPath": "c:\\Users\\Tekali\\Documents\\Haugesund August 2022\\Bouvet work\\cSharp\\Relocating\\Interfaces\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Tekali\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/bouvetasa/af17e44f-d65b-4734-b7a1-683afe8874e4/_packaging/LDR/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "c:\\Users\\Tekali\\Documents\\Haugesund August 2022\\Bouvet work\\cSharp\\Relocating\\LoggerService\\LoggerService.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "c:\\Users\\Tekali\\Documents\\Haugesund August 2022\\Bouvet work\\cSharp\\Relocating\\LoggerService\\LoggerService.csproj",
+        "projectName": "LoggerService",
+        "projectPath": "c:\\Users\\Tekali\\Documents\\Haugesund August 2022\\Bouvet work\\cSharp\\Relocating\\LoggerService\\LoggerService.csproj",
+        "packagesPath": "C:\\Users\\Tekali\\.nuget\\packages\\",
+        "outputPath": "c:\\Users\\Tekali\\Documents\\Haugesund August 2022\\Bouvet work\\cSharp\\Relocating\\LoggerService\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Tekali\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/bouvetasa/af17e44f-d65b-4734-b7a1-683afe8874e4/_packaging/LDR/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "c:\\Users\\Tekali\\Documents\\Haugesund August 2022\\Bouvet work\\cSharp\\Relocating\\Interfaces\\Interfaces.csproj": {
+                "projectPath": "c:\\Users\\Tekali\\Documents\\Haugesund August 2022\\Bouvet work\\cSharp\\Relocating\\Interfaces\\Interfaces.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "NLog.Extensions.Logging": {
+              "target": "Package",
+              "version": "[5.3.8, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
