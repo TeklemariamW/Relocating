@@ -1,30 +1,36 @@
+using Entities.Models;
 using Interfaces;
 using Microsoft.AspNetCore.Mvc;
 
-namespace Relocating.Controllers
+
+namespace Relocating.Controllers;
+
+[ApiController]
+[Route("[controller]")]
+public class WeatherForecastController : ControllerBase
 {
-    [ApiController]
-    [Route("[controller]")]
-    public class WeatherForecastController : ControllerBase
+    
+
+    private readonly ILoggerManager _loggerManager;
+    private readonly IRepositoryWrapper _repository;
+
+    //public WeatherForecastController(ILoggerManager loggerManager)
+    //{
+    //    _loggerManager= loggerManager;
+    //}
+
+    public WeatherForecastController(IRepositoryWrapper repositoryWrapper)
     {
-        
-
-        private readonly ILoggerManager _loggerManager;
-
-        public WeatherForecastController(ILoggerManager loggerManager)
-        {
-            _loggerManager= loggerManager;
-        }
-
-        [HttpGet(Name = "GetWeatherForecast")]
-        public IEnumerable<string> Get()
-        {
-            _loggerManager.LogInfo("Here is info message from the controller.");
-            _loggerManager.LogDebug("Here is debug message from the controller.");
-            _loggerManager.LogWarn("Here is warn message from the controller.");
-            _loggerManager.LogError("Here is error message from the controller.");
-
-            return new string[] { "value1", "value2" };
-        }
+        _repository = repositoryWrapper;
     }
+
+    [HttpGet(Name = "GetWeatherForecast")]
+    public IActionResult GetAll()
+    {
+        var persons = _repository.Address.FindAll();
+
+        return Ok(persons);
+    }
+
+    
 }

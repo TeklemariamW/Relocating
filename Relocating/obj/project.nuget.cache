@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "yYeCK8CY8N2bTcvOIbZD3eQEoyDFERAj4gUFk9qj0CmkkKPH3j48ZhOcJUqMIvPAZd7BWej7w2mTJIrh7lfI+Q==",
+  "dgSpecHash": "kHQhvJ5aBpRetPbbWGmg1/GymwVUe8qyLZ1jhMg8kGPNtztX6iDgb1cMnkrV0gWqa8PR1fMQZmQa1x3PYJ3JdQ==",
   "success": true,
-  "projectFilePath": "c:\\Users\\Tekali\\Documents\\Haugesund August 2022\\Bouvet work\\cSharp\\Relocating\\Relocating\\RelocatingServer.csproj",
+  "projectFilePath": "C:\\Users\\Tekali\\Documents\\Haugesund August 2022\\Bouvet work\\cSharp\\Relocating\\Relocating\\RelocatingServer.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Tekali\\.nuget\\packages\\azure.core\\1.36.0\\azure.core.1.36.0.nupkg.sha512",
     "C:\\Users\\Tekali\\.nuget\\packages\\azure.identity\\1.10.4\\azure.identity.1.10.4.nupkg.sha512",

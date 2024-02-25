@@ -13,3 +13,10 @@ C:\Users\Tekali\Documents\Haugesund August 2022\Bouvet work\cSharp\Relocating\Lo
 C:\Users\Tekali\Documents\Haugesund August 2022\Bouvet work\cSharp\Relocating\LoggerService\obj\Debug\net6.0\refint\LoggerService.dll
 C:\Users\Tekali\Documents\Haugesund August 2022\Bouvet work\cSharp\Relocating\LoggerService\obj\Debug\net6.0\LoggerService.pdb
 C:\Users\Tekali\Documents\Haugesund August 2022\Bouvet work\cSharp\Relocating\LoggerService\obj\Debug\net6.0\ref\LoggerService.dll
+C:\Users\Tekali\Documents\Haugesund August 2022\Bouvet work\cSharp\Relocating\LoggerService\bin\Debug\net6.0\Microsoft.Azure.Cosmos.ServiceInterop.dll
+C:\Users\Tekali\Documents\Haugesund August 2022\Bouvet work\cSharp\Relocating\LoggerService\bin\Debug\net6.0\Cosmos.CRTCompat.dll
+C:\Users\Tekali\Documents\Haugesund August 2022\Bouvet work\cSharp\Relocating\LoggerService\bin\Debug\net6.0\msvcp140.dll
+C:\Users\Tekali\Documents\Haugesund August 2022\Bouvet work\cSharp\Relocating\LoggerService\bin\Debug\net6.0\vcruntime140.dll
+C:\Users\Tekali\Documents\Haugesund August 2022\Bouvet work\cSharp\Relocating\LoggerService\bin\Debug\net6.0\vcruntime140_1.dll
+C:\Users\Tekali\Documents\Haugesund August 2022\Bouvet work\cSharp\Relocating\LoggerService\bin\Debug\net6.0\Entities.dll
+C:\Users\Tekali\Documents\Haugesund August 2022\Bouvet work\cSharp\Relocating\LoggerService\bin\Debug\net6.0\Entities.pdb

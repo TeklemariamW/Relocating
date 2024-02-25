@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\Tekali\\Documents\\Haugesund August 2022\\Bouvet work\\cSharp\\Relocating\\Entities\\Entities.csproj": {}
+    "C:\\Users\\Tekali\\Documents\\Haugesund August 2022\\Bouvet work\\cSharp\\Relocating\\Entities\\Entities.csproj": {}
   },
   "projects": {
-    "c:\\Users\\Tekali\\Documents\\Haugesund August 2022\\Bouvet work\\cSharp\\Relocating\\Entities\\Entities.csproj": {
+    "C:\\Users\\Tekali\\Documents\\Haugesund August 2022\\Bouvet work\\cSharp\\Relocating\\Entities\\Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\Tekali\\Documents\\Haugesund August 2022\\Bouvet work\\cSharp\\Relocating\\Entities\\Entities.csproj",
+        "projectUniqueName": "C:\\Users\\Tekali\\Documents\\Haugesund August 2022\\Bouvet work\\cSharp\\Relocating\\Entities\\Entities.csproj",
         "projectName": "Entities",
-        "projectPath": "c:\\Users\\Tekali\\Documents\\Haugesund August 2022\\Bouvet work\\cSharp\\Relocating\\Entities\\Entities.csproj",
+        "projectPath": "C:\\Users\\Tekali\\Documents\\Haugesund August 2022\\Bouvet work\\cSharp\\Relocating\\Entities\\Entities.csproj",
         "packagesPath": "C:\\Users\\Tekali\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\Tekali\\Documents\\Haugesund August 2022\\Bouvet work\\cSharp\\Relocating\\Entities\\obj\\",
+        "outputPath": "C:\\Users\\Tekali\\Documents\\Haugesund August 2022\\Bouvet work\\cSharp\\Relocating\\Entities\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Tekali\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "7W4IYj3IU8B8V04oYw1JUzywFBYLAzjbXicQqo56hVSUn9nfllTG+tBqidmdfSAJ0nEVyExDZ6eW/6ZlfwSD5w==",
+  "dgSpecHash": "B4nmdi2RSr3SmREFKWFcCD+/Ih1EEPQqS3+6fFjjJfJZZSMWRs4l+mAdbdwYQrd1oa4gOG78MqMXuTNKPC3ocA==",
   "success": true,
-  "projectFilePath": "c:\\Users\\Tekali\\Documents\\Haugesund August 2022\\Bouvet work\\cSharp\\Relocating\\Entities\\Entities.csproj",
+  "projectFilePath": "C:\\Users\\Tekali\\Documents\\Haugesund August 2022\\Bouvet work\\cSharp\\Relocating\\Entities\\Entities.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Tekali\\.nuget\\packages\\azure.core\\1.19.0\\azure.core.1.19.0.nupkg.sha512",
     "C:\\Users\\Tekali\\.nuget\\packages\\microsoft.azure.cosmos\\3.39.0-preview.1\\microsoft.azure.cosmos.3.39.0-preview.1.nupkg.sha512",

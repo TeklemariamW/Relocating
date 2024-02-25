@@ -84,3 +84,5 @@ C:\Users\Tekali\Documents\Haugesund August 2022\Bouvet work\cSharp\Relocating\Re
 C:\Users\Tekali\Documents\Haugesund August 2022\Bouvet work\cSharp\Relocating\Relocating\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
 C:\Users\Tekali\Documents\Haugesund August 2022\Bouvet work\cSharp\Relocating\Relocating\bin\Debug\net6.0\Entities.dll
 C:\Users\Tekali\Documents\Haugesund August 2022\Bouvet work\cSharp\Relocating\Relocating\bin\Debug\net6.0\Entities.pdb
+C:\Users\Tekali\Documents\Haugesund August 2022\Bouvet work\cSharp\Relocating\Relocating\bin\Debug\net6.0\Repository.dll
+C:\Users\Tekali\Documents\Haugesund August 2022\Bouvet work\cSharp\Relocating\Relocating\bin\Debug\net6.0\Repository.pdb

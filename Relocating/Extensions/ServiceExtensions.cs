@@ -3,6 +3,7 @@ using Entities;
 using Interfaces;
 using LoggerService;
 using Microsoft.EntityFrameworkCore;
+using Repository;
 
 namespace Relocating.Extensions;
 
@@ -52,5 +53,7 @@ public static class ServiceExtensions
                 options.UseCosmos(accountEndpoint, new DefaultAzureCredential(), databaseId);
             });
         }
+
+        services.AddScoped<IRepositoryWrapper, RepositoryWrapper>();
     }
 }
