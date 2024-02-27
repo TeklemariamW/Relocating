@@ -23,6 +23,10 @@ public class RepositoryContext: DbContext
         modelBuilder.Entity<Address>()
             .ToContainer("Addresses")
             .HasPartitionKey(a => a.AddressId);
+
+        modelBuilder.Entity<Person>()
+            .ToContainer("Persons")
+            .HasPartitionKey(p => p.PersonId);
             
     }
 }

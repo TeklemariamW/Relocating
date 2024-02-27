@@ -9,5 +9,7 @@ namespace Interfaces
 {
     public interface IAddressRepository : IRepositoryBase<Address>
     {
+        IEnumerable<Address> GetAllAddresses();
+        void AddAddress(Address address);
     }
 }

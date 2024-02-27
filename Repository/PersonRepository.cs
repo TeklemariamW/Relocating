@@ -15,5 +15,22 @@ namespace Repository
             :base(repositoryContext) 
         { 
         }
+
+        public IEnumerable<Person> GetAllPersons()
+        {
+            return FindAll()
+                .OrderBy(pe => pe.DateOfMoving)
+                .ToList();
+        }
+
+        public Person GetPersonById(Guid id)
+        {
+            return FindByCondition(per => per.PersonId.Equals(id))
+                .FirstOrDefault();
+        }
+        public void AddPerson(Person person)
+        {
+            Create(person);
+        }
     }
 }

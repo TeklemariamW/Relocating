@@ -7,7 +7,10 @@ using System.Threading.Tasks;
 
 namespace Interfaces
 {
-    public interface IPersonRepository : IRepositoryBase<Person>
+    public interface IPersonRepository
     {
+        IEnumerable<Person> GetAllPersons();
+        Person GetPersonById(Guid personId);
+        void AddPerson(Person person);
     }
 }

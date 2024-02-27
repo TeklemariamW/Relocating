@@ -1,11 +1,6 @@
 ﻿using Entities;
 using Entities.Models;
 using Interfaces;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Repository
 {
@@ -14,5 +9,17 @@ namespace Repository
         public AddressRepository(RepositoryContext repositoryContext)
         :base(repositoryContext)
         { }
+
+        public IEnumerable<Address> GetAllAddresses()
+        {
+            return FindAll()
+                .OrderBy(ad => ad.AddressId)
+                .ToList();
+        }
+
+        public void AddAddress(Address address)
+        {
+            Create(address);
+        }
     }
 }
